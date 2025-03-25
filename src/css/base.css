@@ -2,8 +2,8 @@
 
 body {
   font-family: 'Gilroy', sans-serif;
-  background-color: #fbfbfb;
-  color: rgba(12, 12, 12, 0.7);
+  background-color: var(--background);
+  color: var(--main);
 }
 
 .visually-hidden {
@@ -19,12 +19,14 @@ body {
 }
 
 :root {
-  --title-color: #0c0c0c;
-  --description-color: rgba(12, 12, 12, 0.7);
-  --blue-color: #3350e9;
-  --white-color: #fbfbfb;
+  --main: #0c0c0c;
+  --accent: #3350e9;
+  --background: #fbfbfb;
+  --cards: #f3f3f3;
+  --hover-focus-blue-color: #1f3cd4;
+
+  /* --description-color: rgba(12, 12, 12, 0.7);
   --price-description-color: rgba(12, 12, 12, 0.5);
   --reviews-description-color: rgba(12, 12, 12, 0.4);
-  --footer-description-color: rgba(251, 251, 251, 0.5);
-  --hover-focus-blue-color: #1f3cd4;
+  --footer-description-color: rgba(251, 251, 251, 0.5); */
 }
