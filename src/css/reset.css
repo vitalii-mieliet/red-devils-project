@@ -1,3 +1,11 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 h1,
 h2,
 h3,
@@ -6,10 +14,6 @@ h5,
 h6,
 p {
   margin: 0;
-}
-
-p:last-child {
-  margin-bottom: 0;
 }
 
 ul {
@@ -25,6 +29,17 @@ a {
 
 button {
   cursor: pointer;
+  background: none;
+  padding: 0;
+}
+
+input,
+button,
+textarea,
+select {
+  margin: 0;
+  padding: 0;
+  border: none;
 }
 
 img {
