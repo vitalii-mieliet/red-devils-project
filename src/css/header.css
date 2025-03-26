@@ -1,0 +1,129 @@
+.header-wrapper {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(12, 12, 12, 0.1);
+  width: 100%;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  color: var(--main);
+}
+
+.burger-btn {
+  border: none;
+  background-color: transparent;
+}
+
+.burger-icons {
+  fill: var(--main);
+  stroke-width: 3px;
+  stroke: var(--main);
+}
+
+.header-ul-list {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.header-nav-list {
+  display: none;
+}
+
+.header-list {
+  display: flex;
+}
+
+.header-list-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  color: var(--main);
+  position: relative;
+}
+
+.header-home-link::after {
+  content: '';
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: var(--accent);
+  bottom: -10px;
+  left: 15px;
+}
+
+.header-icon {
+  display: none;
+}
+
+.header-icons-list {
+  display: flex;
+  gap: 10px;
+}
+
+.header-icons-list-items {
+  border: 1px solid rgba(12, 12, 12, 0.1);
+  border-radius: 10px;
+  padding: 8px;
+  width: 36px;
+  height: 36px;
+  transition: border 250ms ease-in-out;
+}
+
+.header-icons-list-items:hover,
+.header-icons-list-items:hover {
+  border: 1px solid rgba(51, 80, 233, 0.1);
+}
+
+.header-icon-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-icons-style {
+  fill: var(--main);
+  transition: fill 250ms ease-in-out;
+}
+
+.header-icons-style:hover,
+.header-icons-style:focus {
+  fill: var(--hover-focus-blue-color);
+}
+
+@media screen and (min-width: 768px) {
+  .header-wrapper {
+    padding-top: 26px;
+    padding-bottom: 26px;
+  }
+
+  .header-logo {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .header-nav-list {
+    display: flex;
+    align-items: flex-start;
+    height: 28px;
+  }
+
+  .burger-menu {
+    display: none;
+  }
+
+  .header-icon {
+    display: flex;
+  }
+}
