@@ -13,6 +13,7 @@
   display: flex;
   flex-direction: column;
   gap: 28px;
+  background-position: center;
 }
 
 .advert-text {
@@ -31,7 +32,6 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 1.28571;
-  text-align: center;
   color: #fbfbfb;
   border: 1px solid rgba(251, 251, 251, 0.15);
   border-radius: 16px;
@@ -61,6 +61,7 @@
   .advert-text {
     font-size: 48px;
     line-height: 0.91667;
+    max-width: 576px;
   }
 }
 /* #endregion for tablet */
@@ -88,7 +89,7 @@
     background-image: url('/img/advertisement/advert-mob@2x.png');
   }
 }
-@media screen and (min-resolution: 192dpi) and (max-width: 1279px) {
+@media screen and (min-resolution: 192dpi) and (min-width: 768px) and (max-width: 1279px) {
   .advert-image {
     background-image: url('/img/advertisement/advert-tablet@2x.png');
   }
