@@ -1,10 +1,4 @@
-.reviews-header {
-    font-family: "Gilroy", sans-serif;
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 1;
-    letter-spacing: -0.02em;
-    color: #0c0c0c;
+.reviews-title {    
     margin-bottom: 24px;
 }
 
@@ -70,7 +64,7 @@
         margin: 0 auto 80px auto;
     }
 
-    .reviews-header {
+    .reviews-title {
         font-weight: 600;
         font-size: 48px;
         line-height: 0.92;
@@ -120,7 +114,7 @@
         margin: 0 auto 100px auto;
     }
 
-    .reviews-header {
+    .reviews-title {
         font-weight: 600;
         font-size: 48px;
         line-height: 0.92;
