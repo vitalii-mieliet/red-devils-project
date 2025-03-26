@@ -88,7 +88,7 @@
     padding: 8px;
     width: 36px;
     height: 36px;
-    transition: border 250ms ease-in-out;
+    transition: border var(--animation);
   }
 
   .header-icon-list-item:hover,
@@ -104,7 +104,7 @@
 
   .header-icon-style {
     fill: var(--main);
-    transition: fill 250ms ease-in-out;
+    transition: fill var(--animation);
   }
 
   .header-icon-style:hover,
