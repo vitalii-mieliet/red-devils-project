@@ -1,3 +1,5 @@
+/* ========= Mobile style ============ */
+
 .header-wrapper {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -21,6 +23,7 @@
 .burger-btn {
   border: none;
   background-color: transparent;
+  cursor: pointer;
 }
 
 .burger-icons {
@@ -29,77 +32,14 @@
   stroke: var(--main);
 }
 
-.header-ul-list {
-  display: flex;
-  flex-direction: row;
-  gap: 40px;
-}
-
-.header-nav-list {
-  display: none;
-}
-
-.header-list {
-  display: flex;
-}
-
-.header-list-link {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.28571;
-  color: var(--main);
-  position: relative;
-}
-
-.header-home-link::after {
-  content: '';
-  position: absolute;
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background-color: var(--accent);
-  bottom: -10px;
-  left: 15px;
-}
-
+.header-nav-list,
 .header-icon {
   display: none;
 }
 
-.header-icons-list {
-  display: flex;
-  gap: 10px;
-}
+/* ========= Mobile style ============ */
 
-.header-icons-list-items {
-  border: 1px solid rgba(12, 12, 12, 0.1);
-  border-radius: 10px;
-  padding: 8px;
-  width: 36px;
-  height: 36px;
-  transition: border 250ms ease-in-out;
-}
-
-.header-icons-list-items:hover,
-.header-icons-list-items:hover {
-  border: 1px solid rgba(51, 80, 233, 0.1);
-}
-
-.header-icon-link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.header-icons-style {
-  fill: var(--main);
-  transition: fill 250ms ease-in-out;
-}
-
-.header-icons-style:hover,
-.header-icons-style:focus {
-  fill: var(--hover-focus-blue-color);
-}
+/* ========= Table style ============ */
 
 @media screen and (min-width: 768px) {
   .header-wrapper {
@@ -112,11 +52,21 @@
   }
 }
 
+/* ========= Table style ============ */
+
+/* ========= Desktop style ============ */
+
 @media screen and (min-width: 1280px) {
   .header-nav-list {
     display: flex;
     align-items: flex-start;
     height: 28px;
+  }
+
+  .header-ul-list {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
   }
 
   .burger-menu {
@@ -126,4 +76,68 @@
   .header-icon {
     display: flex;
   }
+
+  .header-icon-list {
+    display: flex;
+    gap: 10px;
+  }
+
+  .header-icon-list-item {
+    border: 1px solid rgba(12, 12, 12, 0.1);
+    border-radius: 10px;
+    padding: 8px;
+    width: 36px;
+    height: 36px;
+    transition: border 250ms ease-in-out;
+  }
+
+  .header-icon-list-item:hover,
+  .header-icon-list-item:hover {
+    border: 1px solid rgba(51, 80, 233, 0.1);
+  }
+
+  .header-icon-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .header-icon-style {
+    fill: var(--main);
+    transition: fill 250ms ease-in-out;
+  }
+
+  .header-icon-style:hover,
+  .header-icon-style:focus {
+    fill: var(--hover-focus-blue-color);
+  }
+
+  .header-list-item {
+    display: flex;
+  }
+
+  .current {
+    position: relative;
+  }
+
+  .header-list-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    color: var(--main);
+  }
+
+  .header-list-link::after {
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: var(--accent);
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
 }
+
+/* ========= Desktop style ============ */
