@@ -20,12 +20,6 @@
   color: var(--main);
 }
 
-.burger-btn {
-  border: none;
-  background-color: transparent;
-  cursor: pointer;
-}
-
 .burger-icons {
   fill: var(--main);
   stroke-width: 3px;
@@ -112,11 +106,8 @@
     fill: var(--hover-focus-blue-color);
   }
 
-  .header-list-item {
+  .header-list-item.current {
     display: flex;
-  }
-
-  .current {
     position: relative;
   }
 
@@ -124,10 +115,9 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 1.29;
-    color: var(--main);
   }
 
-  .header-list-link::after {
+  .header-list-item.current::after {
     content: '';
     position: absolute;
     width: 8px;
