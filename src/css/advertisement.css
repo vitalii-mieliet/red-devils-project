@@ -1,0 +1,35 @@
+.advert-image {
+  background-image: url('/img/advertisement/advert-mob.png');
+  padding: 60px 28px;
+  border-radius: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #0c0c0c;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.advert-text {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+}
+
+.advert-span-yourstory {
+  color: rgba(251, 251, 251, 0.5);
+}
+.advert-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  text-align: center;
+  color: #fbfbfb;
+  border: 1px solid rgba(251, 251, 251, 0.15);
+  border-radius: 16px;
+  max-width: 160px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
