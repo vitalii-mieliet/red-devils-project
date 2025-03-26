@@ -28,8 +28,9 @@
     margin-bottom: 28px;
     display: flex;
     justify-content: space-between;
-    align-items:flex-end;
+    align-items: flex-end;
     max-width: 335px;
+    height: 44px;
     position: relative;
 }
 
@@ -74,7 +75,6 @@
 
 .hero-section-img {
     border-radius: 30px;
-    background: rgba(12, 12, 12, 0.2);
 }
 
 @media screen and (min-width:768px) {}
