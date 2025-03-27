@@ -9,35 +9,51 @@
 }
 
 .catalog-main {
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 100%;
-  letter-spacing: -0.02em;
-  color: var(--main);
   margin-bottom: 24px;
 }
 
+@media only screen and (min-width: 768px) {
+  .catalog-main {
+    margin-bottom: 40px;
+  }
+}
+
 .catalog-list {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-bottom: 40px;
-  gap: 16px;
+}
+
+@media only screen and (min-width: 768px) {
+  .catalog-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 32px;
+  }
 }
 
 .catalog-item {
+  display: flex;
+  flex-direction: column;
   border: 1px solid rgba(12, 12, 12, 0.05);
   border-radius: 30px;
-  width: 335px;
-  height: 364px;
+  padding: 24px 28px;
+  width: 100%;
   background-color: var(--cards);
+  margin-bottom: 20px;
+}
+
+.catalog-item:nth-child(5),
+.catalog-item:nth-child(6) {
+  display: none;
 }
 
 @media only screen and (min-width: 768px) {
   .catalog-item {
-    width: 344px;
-    height: 414px;
+    flex-basis: calc((100% - 16px) / 2);
+  }
+
+  .catalog-item:nth-child(5),
+  .catalog-item:nth-child(6) {
+    display: flex;
   }
 }
 
@@ -51,9 +67,14 @@
   padding-bottom: 10px;
 }
 
+.catalog-photo {
+  margin-bottom: 20px;
+  border-radius: 100%;
+}
+
 .catalog-card {
-  padding-top: 10px;
-  padding-left: 28px;
+  /* padding-top: 10px;
+  padding-left: 28px; */
 }
 
 .catalog-title {
@@ -71,19 +92,11 @@
   line-height: 129%;
   letter-spacing: -0.02em;
   color: rgba(12, 12, 12, 0.5);
-}
-
-.catalog-item-none {
-  display: none;
-}
-
-@media only screen and (min-width: 768px) {
-  .catalog-item-none {
-    display: flex;
-  }
+  text-align: left;
 }
 
 .catalog-btn {
+  display: block;
   border-radius: 16px;
   width: 160px;
   height: 48px;
@@ -93,6 +106,9 @@
   text-align: center;
   color: #fbfbfb;
   background-color: #3350e9;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .catalog-btn:hover,
@@ -100,13 +116,8 @@
   background-color: #1f3cd4;
 }
 
-.catalog-btn-none {
-  display: none;
-}
-
-@media only screen and (max-width: 767px) {
-  .catalog-btn-none {
-    display: flex;
-    justify-content: center;
+@media only screen and (min-width: 767px) {
+  .catalog-btn {
+    display: none;
   }
 }
