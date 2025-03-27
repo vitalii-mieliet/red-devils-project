@@ -1,0 +1,133 @@
+.contact-us-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px;
+    max-width: 375px;
+    margin: 0 auto;
+}
+
+.contact-us-header {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+    margin-bottom: 24px;
+}
+
+.contact-us {}
+
+.contact-us-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.contact-us-item {
+    width: 335px;
+}
+
+.contact-form-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 28px;
+    border-radius: 30px;
+    padding: 48px 28px;
+    height: 512px;
+    background: #f3f3f3;
+
+}
+
+.contact-form-text {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: rgba(12, 12, 12, 0.7);
+}
+
+.contact-form-input {
+    border: 1px solid rgba(12, 12, 12, 0.15);
+    border-radius: 12px;
+    padding: 0 14px 0 14px;
+    width: 279px;
+    height: 42px;
+    line-height: 42px;
+    align-items: center;
+    background-color: transparent;
+    outline: transparent;
+}
+
+.contact-form-input::placeholder {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    color: #0c0c0c;
+}
+
+.contact-form-input:focus {
+    border-color: #3350e9;
+
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.contact-form-item {}
+
+.phone-input {}
+
+.form-input {}
+
+.contact-form-input.textarea-input {
+    border: 1px solid rgba(12, 12, 12, 0.15);
+    border-radius: 12px;
+    padding: 12px 14px 54px 14px;
+    width: 279px;
+    height: 84px;
+    line-height: 1.29;
+    resize: none;
+
+}
+
+.contact-form-input.textarea-input:focus {
+    border-color: #3350e9;
+}
+
+.contact-us-btn-send {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+    border-radius: 16px;
+    border: none;
+    padding: 12px 50px;
+    width: 134px;
+    height: 42px;
+    background: #3350e9;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28571;
+    text-align: center;
+    color: #fbfbfb;
+
+}
+
+.contact-us-photo {
+    border-radius: 30px;
+    width: 335px;
+    height: 512px;
+    object-fit: cover;
+
+
+}
