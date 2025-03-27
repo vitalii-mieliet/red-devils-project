@@ -1,0 +1,10 @@
+@media (min-width: 320px) {
+    .sale-slider-product {
+        max-width: 100%;
+    }
+
+    .sale-description {
+        max-width: 100%;
+    }
+}
+
