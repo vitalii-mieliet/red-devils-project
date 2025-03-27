@@ -148,19 +148,20 @@
 /************ Desktop ************/
 
 @media screen and (min-width:1280px) {
+    
     .section {
-            padding-top: 100px;
-            padding-bottom: 50px;
+        padding-top: 100px;
+        padding-bottom: 50px;
         }
 
-        .hero-wrapper {
-            justify-content: space-between;
-            position: relative;
+    .hero-wrapper {
+        justify-content: space-between;
+        position: relative;
         }
 
-        .hero-text-box {
-            max-width: 597px;
-            }
+    .hero-text-box {
+        max-width: 597px;
+        }
     
     .hero-title {
         font-size: 72px;
