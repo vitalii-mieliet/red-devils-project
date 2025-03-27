@@ -134,3 +134,46 @@
 }
 
 /* ========= Desktop style ============ */
+
+/* ========= Modal style ============ */
+
+.header-modal-menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: var(--main);
+  width: 200px;
+  height: 100%;
+  padding-top: 240px;
+  padding-bottom: 40px;
+}
+
+.header-ul-list-menu {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+
+.header-list-item-menu {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  color: var(--background);
+  text-align: center;
+}
+
+.header-list-link-menu.current {
+  position: relative;
+}
+
+.header-list-link-menu.current::after {
+  content: '';
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: var(--accent);
+  bottom: -14px;
+  left: 50%;
+  transform: translateX(-50%);
+}
