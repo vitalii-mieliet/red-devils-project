@@ -1,0 +1,136 @@
+/* ========= Mobile style ============ */
+
+.header-wrapper {
+  border-bottom: 1px solid rgba(12, 12, 12, 0.1);
+  width: 100%;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.burger-icons {
+  fill: var(--main);
+  stroke-width: 3px;
+  stroke: var(--main);
+}
+
+.header-ul-list,
+.header-social {
+  display: none;
+}
+
+.header-logo {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  color: var(--main);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+/* ========= Mobile style ============ */
+
+/* ========= Table style ============ */
+
+@media screen and (min-width: 768px) {
+  .header-logo {
+    font-size: 20px;
+    padding-top: 26px;
+    padding-bottom: 26px;
+  }
+}
+
+/* ========= Table style ============ */
+
+/* ========= Desktop style ============ */
+
+@media screen and (min-width: 1280px) {
+  .header-logo {
+    margin-right: 203px;
+  }
+
+  .header-nav-list {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .header-ul-list {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 40px;
+  }
+
+  .burger-menu {
+    display: none;
+  }
+
+  .header-social {
+    display: flex;
+  }
+
+  .header-social-list {
+    display: flex;
+    gap: 10px;
+  }
+
+  .header-social-list-item {
+    border: 1px solid rgba(12, 12, 12, 0.1);
+    border-radius: 10px;
+    padding: 8px;
+    width: 36px;
+    height: 36px;
+    transition: border var(--animation);
+  }
+
+  .header-social-list-item:hover,
+  .header-social-list-item:hover {
+    border: 1px solid rgba(51, 80, 233, 0.1);
+  }
+
+  .header-icon-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .header-icon-style {
+    fill: var(--main);
+    transition: fill var(--animation);
+  }
+
+  .header-icon-style:hover,
+  .header-icon-style:focus {
+    fill: var(--hover-focus-blue-color);
+  }
+
+  .header-list-link.current {
+    display: flex;
+    position: relative;
+  }
+
+  .header-list-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    padding-top: 26px;
+    padding-bottom: 26px;
+  }
+
+  .header-list-link.current::after {
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: var(--accent);
+    bottom: 14px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+/* ========= Desktop style ============ */
