@@ -69,11 +69,7 @@
 }
 
 @media screen and (min-width: 1280px) {     
-    .reviews {
-        max-width: 1280px;
-        margin: 0 auto 100px auto;
-    }
-
+     
     .reviews-title {        
         margin-bottom: 40px;
     }
