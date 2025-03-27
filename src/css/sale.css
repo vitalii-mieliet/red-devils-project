@@ -7,4 +7,36 @@
         max-width: 100%;
     }
 }
-
+.sale-heading {
+    margin-bottom: 24px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    color: var(--main);
+}
+.sale-product {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.sale-slider {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.sale-slider-list {
+    display: flex;
+    gap: 5px;
+}
+.sale-slider-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 13px 14px;
+    width: calc((100% - 3 * 5px) / 4);
+    background-color: var(--cards);
+    border: 1px solid rgba(12, 12, 12, 0.05);
+    border-radius: 16px;
+    height: 80px;
+}
