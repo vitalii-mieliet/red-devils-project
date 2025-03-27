@@ -181,6 +181,10 @@
         height: 518px;
         padding: 60px;
     }
+    .sale-current-price {
+        font-size: 20px;
+        line-height: 1;
+    }
 
     .sale-description-heading {
         width: 436px;
