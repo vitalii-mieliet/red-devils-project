@@ -1,8 +1,3 @@
-.advert-container {
-  padding-left: 0;
-  padding-right: 0;
-}
-
 .advert-image {
   background-image: url('/img/advertisement/advert-mob.png');
   padding: 60px 28px;
@@ -29,19 +24,18 @@
 }
 
 .advert-button-link {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.28571;
   color: #fbfbfb;
   border: 1px solid rgba(251, 251, 251, 0.15);
   border-radius: 16px;
   width: 160px;
-  height: 48px;
-  display: flex;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
   text-decoration: none;
-  transition: var(--animation);
+  transition: background-color var(--animation), color var(--animation);
+  align-self: flex-start;
 }
 
 .advert-button-link:hover,
