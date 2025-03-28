@@ -12,28 +12,7 @@
   margin-bottom: 24px;
 }
 
-@media only screen and (min-width: 768px) {
-  .catalog-main {
-    margin-bottom: 40px;
-  }
-}
-
 .catalog-list {
-}
-
-@media only screen and (min-width: 768px) {
-  .catalog-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    row-gap: 32px;
-  }
-}
-
-@media only screen and (min-width: 1270px) {
-  .catalog-list {
-    display: flex;
-  }
 }
 
 .catalog-item {
@@ -50,25 +29,6 @@
 .catalog-item:nth-child(5),
 .catalog-item:nth-child(6) {
   display: none;
-}
-
-@media only screen and (min-width: 768px) {
-  .catalog-item {
-    flex-basis: calc((100% - 16px) / 2);
-    padding: 24px 32px;
-  }
-
-  .catalog-item:nth-child(5),
-  .catalog-item:nth-child(6) {
-    display: flex;
-  }
-}
-
-@media only screen and (min-width: 1270px) {
-  .catalog-item {
-    width: 368px;
-    flex-basis: auto;
-  }
 }
 
 .catalog-card-img {
@@ -89,18 +49,6 @@
   letter-spacing: -0.02em;
   color: var(--main);
   margin-bottom: 8px;
-}
-
-@media only screen and (max-width: 375px) {
-  .catalog-title {
-    font-weight: 500;
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  .catalog-title {
-    font-size: 20px;
-  }
 }
 
 .catalog-text {
@@ -133,13 +81,55 @@
   background-color: #1f3cd4;
 }
 
-@media only screen and (min-width: 767px) {
+/* ====================================== */
+
+@media only screen and (min-width: 768px) {
+  .catalog-main {
+    margin-bottom: 40px;
+  }
+
+  .catalog-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 32px;
+  }
+
+  .catalog-item {
+    flex-basis: calc((100% - 16px) / 2);
+    padding: 24px 32px;
+  }
+
+  .catalog-item:nth-child(5),
+  .catalog-item:nth-child(6) {
+    display: flex;
+  }
+
+  .catalog-title {
+    font-size: 20px;
+  }
+
   .catalog-btn {
     display: none;
   }
 }
 
-@media only screen and (min-width: 768px) {
-   {
+/* =========================max-width */
+@media only screen and (max-width: 375px) {
+  .catalog-title {
+    font-weight: 500;
+  }
+}
+
+/* ==========================1270 */
+
+@media only screen and (min-width: 1270px) {
+  .catalog-list {
+    display: flex;
+  }
+
+  .catalog-item {
+    width: 368px;
+    flex-basis: auto;
   }
 }
