@@ -1,109 +1,118 @@
 .footer {
-  background-color: #111111;
+  background-color: #141414;
   color: #ffffff;
-  padding: 40px 24px;
-  font-family: 'Inter', sans-serif;
+  width: 100%;
+  padding: 40px 0 20px;
+  font-family: 'Montserrat', Arial, sans-serif;
 }
 
 .footer-container {
-  max-width: 1280px;
+  max-width: 1200px;
   margin: 0 auto;
+  padding: 0 20px;
 }
 
 .footer-top {
-  display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
-  gap: 20px;
-  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
+  margin-bottom: 40px;
+}
+
+.footer-logo {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .footer-logo p {
   font-size: 20px;
-  font-weight: 500;
-  margin-bottom: 16px;
+  font-weight: 700;
+  margin: 0;
 }
 
 .footer-social {
   display: flex;
-  gap: 16px;
+  gap: 12px;
 }
 
 .social-link {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 32px;
+  height: 32px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+
+.social-link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .social-link img {
-  width: 20px;
-  height: 20px;
-  opacity: 0.8;
-  transition: opacity 0.3s;
-}
-
-.social-link:hover img {
-  opacity: 1;
+  width: 16px;
+  height: 16px;
 }
 
 .footer-tagline {
-  text-align: center;
   max-width: 400px;
-  margin: 0 auto;
+  text-align: center;
 }
 
 .footer-tagline p {
-  font-size: 18px;
+  font-size: 14px;
   line-height: 1.5;
+  margin: 0;
 }
 
 .footer-contact {
-  text-align: right;
+  display: flex;
+  align-items: center;
 }
 
 .phone-link {
-  display: inline-block;
   color: #ffffff;
   text-decoration: none;
   font-size: 16px;
-  padding: 10px 20px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 50px;
-  transition: background-color 0.3s;
+  font-weight: 700;
+  transition: color 0.3s ease;
 }
 
 .phone-link:hover {
-  background-color: rgba(255, 255, 255, 0.1);
+  color: #cccccc;
 }
 
 .footer-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 40px;
-  padding-bottom: 20px;
+  padding: 20px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  margin-bottom: 20px;
 }
 
 .footer-menu {
   display: flex;
-  gap: 24px;
+  gap: 20px;
 }
 
 .menu-link {
   color: #ffffff;
   text-decoration: none;
   font-size: 14px;
-  transition: opacity 0.3s;
+  transition: color 0.3s ease;
 }
 
 .menu-link:hover {
-  opacity: 0.7;
+  color: #cccccc;
 }
 
-.footer-address {
+.footer-address p {
   font-size: 14px;
-  text-align: right;
+  margin: 0;
 }
 
 .footer-bottom {
@@ -112,9 +121,10 @@
   align-items: center;
 }
 
-.footer-copyright {
+.footer-copyright p {
   font-size: 12px;
   color: rgba(255, 255, 255, 0.7);
+  margin: 0;
 }
 
 .footer-legal {
@@ -126,27 +136,22 @@
   color: rgba(255, 255, 255, 0.7);
   text-decoration: none;
   font-size: 12px;
-  transition: color 0.3s;
+  transition: color 0.3s ease;
 }
 
 .legal-link:hover {
   color: #ffffff;
 }
 
-/* Медиа запросы для адаптивной верстки */
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .footer-top {
-    grid-template-columns: 1fr;
+    flex-direction: column;
+    gap: 30px;
     text-align: center;
   }
 
-  .footer-logo,
-  .footer-contact {
-    text-align: center;
-  }
-
-  .footer-social {
-    justify-content: center;
+  .footer-logo {
+    align-items: center;
   }
 
   .footer-nav {
@@ -155,17 +160,33 @@
   }
 
   .footer-menu {
-    flex-wrap: wrap;
     justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
   }
 
   .footer-address {
     text-align: center;
   }
+}
 
+@media (max-width: 576px) {
+  .footer-menu {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
   .footer-bottom {
     flex-direction: column;
-    gap: 16px;
+    gap: 15px;
     text-align: center;
+  }
+  .footer-legal {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+  .footer-tagline p {
+    font-size: 13px;
   }
 }
