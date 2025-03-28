@@ -19,8 +19,6 @@
 
 .hidden-product {
   display: none;
-  overflow: hidden;
-  position: relative;
 }
 
 .catalog-photo {
@@ -38,6 +36,11 @@
   letter-spacing: -0.02em;
   color: var(--main);
   margin-bottom: 8px;
+  /* -----------------------*/
+  /* max-width: 250px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; */
 }
 
 .catalog-text {
@@ -91,6 +94,12 @@
 
   .catalog-title {
     font-size: 20px;
+
+    /* ====...==== */
+    max-width: 280px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
   .catalog-btn {
@@ -109,5 +118,13 @@
     /* width: 368px;
     flex-basis: auto; */
     flex-basis: calc((100% - 46px) / 3);
+  }
+
+  /*=====...=====  */
+  .catalog-title {
+    max-width: 310px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 }
