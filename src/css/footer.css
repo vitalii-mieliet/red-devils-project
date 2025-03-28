@@ -1,87 +1,141 @@
+/* Подключение шрифтов Gilroy */
+@font-face {
+  font-family: 'Gilroy';
+  src: url(../fonts/Gilroy-Medium.woff2) format('woff2'),
+    url(../fonts/Gilroy-Medium.woff) format('woff'),
+    url(../fonts/Gilroy-Medium.ttf) format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url(../fonts/Gilroy-Semibold.woff2) format('woff2'),
+    url(../fonts/Gilroy-Semibold.woff) format('woff'),
+    url(../fonts/Gilroy-Semibold.ttf) format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url(../fonts/Gilroy-Regular.woff2) format('woff2'),
+    url(../fonts/Gilroy-Regular.woff) format('woff'),
+    url(../fonts/Gilroy-Regular.ttf) format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url(../fonts/Gilroy-Bold.woff2) format('woff2'),
+    url(../fonts/Gilroy-Bold.woff) format('woff'),
+    url(../fonts/Gilroy-Bold.ttf) format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+.footer-section {
+  margin: 126px 0;
+}
+
 .footer {
-  background-color: #141414;
+  background-color: #0C0C0C;
   color: #ffffff;
   width: 100%;
-  padding: 40px 0 20px;
-  font-family: 'Montserrat', Arial, sans-serif;
+  max-width: 1136px;
+  height: 332px;
+  border-radius: 30px;
+  padding: 40px;
+  font-family: 'Gilroy', sans-serif;
+  margin: 0 auto;
 }
 
 .footer-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .footer-top {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 40px;
+}
+
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
 
 .footer-logo {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-.footer-logo p {
   font-size: 20px;
-  font-weight: 700;
-  margin: 0;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  text-transform: lowercase;
 }
 
 .footer-social {
   display: flex;
-  gap: 12px;
+  gap: 20px;
 }
 
 .social-link {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 32px;
-  height: 32px;
-  border: 1px solid #ffffff;
-  border-radius: 50%;
-  transition: background-color 0.3s ease;
+  width: 24px;
+  height: 24px;
+  transition: opacity 0.3s ease;
 }
 
 .social-link:hover {
-  background-color: rgba(255, 255, 255, 0.1);
+  opacity: 0.8;
 }
 
-.social-link img {
-  width: 16px;
-  height: 16px;
+.icon {
+  width: 24px;
+  height: 24px;
+  fill: #ffffff;
 }
 
 .footer-tagline {
-  max-width: 400px;
+  max-width: 523px;
   text-align: center;
 }
 
 .footer-tagline p {
-  font-size: 14px;
-  line-height: 1.5;
+  font-size: 28px;
+  line-height: 32px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  color: #ffffff;
   margin: 0;
 }
 
 .footer-contact {
+  width: 160px;
+  height: 48px;
+  background-color: #1D1D1D;
+  border-radius: 30px;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .phone-link {
   color: #ffffff;
   text-decoration: none;
   font-size: 16px;
-  font-weight: 700;
-  transition: color 0.3s ease;
-}
-
-.phone-link:hover {
-  color: #cccccc;
+  font-weight: 500;
+  letter-spacing: -0.01em;
 }
 
 .footer-nav {
@@ -91,7 +145,6 @@
   padding: 20px 0;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  margin-bottom: 20px;
 }
 
 .footer-menu {
@@ -103,6 +156,8 @@
   color: #ffffff;
   text-decoration: none;
   font-size: 14px;
+  font-weight: 400;
+  letter-spacing: -0.01em;
   transition: color 0.3s ease;
 }
 
@@ -110,21 +165,27 @@
   color: #cccccc;
 }
 
-.footer-address p {
+/* Адрес */
+.footer-address {
   font-size: 14px;
-  margin: 0;
+    font-weight: 500;
+    line-height: 18px;
+    color: #ffffff;
+    text-align: right;
+    white-space: pre-line;
 }
 
+/* Нижняя часть футера */
 .footer-bottom {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.footer-copyright p {
+.footer-copyright {
   font-size: 12px;
   color: rgba(255, 255, 255, 0.7);
-  margin: 0;
+  font-weight: 400;
 }
 
 .footer-legal {
@@ -136,6 +197,7 @@
   color: rgba(255, 255, 255, 0.7);
   text-decoration: none;
   font-size: 12px;
+  font-weight: 400;
   transition: color 0.3s ease;
 }
 
@@ -143,15 +205,29 @@
   color: #ffffff;
 }
 
+/* Адаптивность для планшетов */
 @media (max-width: 992px) {
+  .footer-section {
+    margin: 80px 0;
+  }
+
+  .footer {
+    height: auto;
+    padding: 30px;
+  }
+
   .footer-top {
     flex-direction: column;
     gap: 30px;
-    text-align: center;
   }
 
-  .footer-logo {
+  .footer-left {
     align-items: center;
+  }
+
+  .footer-tagline p {
+    font-size: 24px;
+    line-height: 28px;
   }
 
   .footer-nav {
@@ -162,7 +238,6 @@
   .footer-menu {
     justify-content: center;
     flex-wrap: wrap;
-    margin-bottom: 10px;
   }
 
   .footer-address {
@@ -170,23 +245,36 @@
   }
 }
 
+/* Адаптивность для мобильных устройств */
 @media (max-width: 576px) {
+  .footer-section {
+    margin: 50px 0;
+  }
+
+  .footer {
+    padding: 25px 20px;
+    border-radius: 20px;
+  }
+
+  .footer-tagline p {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
   .footer-menu {
     flex-direction: column;
     align-items: center;
     gap: 15px;
   }
+
   .footer-bottom {
     flex-direction: column;
     gap: 15px;
     text-align: center;
   }
+
   .footer-legal {
     flex-direction: column;
     gap: 10px;
-    align-items: center;
-  }
-  .footer-tagline p {
-    font-size: 13px;
   }
 }
