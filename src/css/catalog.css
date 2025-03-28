@@ -19,6 +19,8 @@
 
 .hidden-product {
   display: none;
+  overflow: hidden;
+  position: relative;
 }
 
 .catalog-photo {
