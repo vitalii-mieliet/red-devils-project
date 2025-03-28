@@ -16,10 +16,9 @@
     max-width: 768px;
     padding: 0 32px;
   }
-}
-
-.section {
-  padding: 40px 0;
+  .section {
+    padding: 40px 0;
+  }
 }
 
 /* Styles for Desktop devices */
