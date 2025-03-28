@@ -170,17 +170,19 @@
   pointer-events: auto;
 }
 .close-btn {
-  width: 40px;
-  height: 40px;
+  width: 34px;
+  height: 34px;
   position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   top: 20px;
   right: 20px;
 }
 
 .close-icons {
-  position: absolute;
-  top: 10px;
-  right: -2px;
+  width: 17px;
+  height: 17px;
   fill: var(--background);
 }
 
@@ -273,15 +275,15 @@
   }
 
   .close-btn {
+    width: 40px;
+    height: 40px;
     top: 26px;
     right: 32px;
   }
 
   .close-icons {
-    top: 8px;
-    right: -8px;
-    width: 40px;
-    height: 40px;
+    width: 20px;
+    height: 20px;
   }
 
   .header-social-list-item-mobile-menu {
