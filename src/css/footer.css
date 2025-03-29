@@ -1,5 +1,11 @@
+/* 
+ * Footer styles для сайта WatchCharm
+ * Исправлено в соответствии с дизайном из Figma
+ */
+
 .footer {
   background-color: #0C0C0C;
+  /* Исправлено: цвет фона в соответствии с макетом */
   color: #ffffff;
   width: 100%;
   max-width: 100%;
@@ -27,8 +33,10 @@
 .footer-left {
   display: flex;
   flex-direction: column;
-  gap: 24px;
-  align-items: center;
+  gap: 16px;
+  /* Исправлено: уменьшен отступ между логотипом и иконками */
+  align-items: flex-start;
+  /* Исправлено: выравнивание по левому краю */
 }
 
 .footer-logo {
@@ -42,16 +50,27 @@
 
 .footer-social {
   display: flex;
-  gap: 20px;
+  gap: 6px;
+  /* Исправлено: уменьшен отступ между иконками для более компактного размещения */
+  margin-top: 5px;
+  /* Исправлено: добавлен отступ сверху для лучшего выравнивания с логотипом */
 }
 
 .social-link {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 24px;
-  height: 24px;
-  transition: opacity var(--animation);
+  width: 26px;
+  /* Исправлено: еще больше уменьшен размер контейнера */
+  height: 26px;
+  /* Исправлено: еще больше уменьшен размер контейнера */
+  border: 0.5px solid rgba(251, 251, 251, 0.08);
+  /* Исправлено: более тонкая и мягкая граница */
+  border-radius: 10px;
+  /* Исправлено: возвращен более мягкий радиус скругления */
+  padding: 6px;
+  /* Исправлено: уменьшен внутренний отступ */
+  transition: 200ms ease;
 }
 
 .social-link:hover {
@@ -59,8 +78,10 @@
 }
 
 .icon {
-  width: 24px;
-  height: 24px;
+  width: 16px;
+  /* Исправлено: увеличен размер иконки */
+  height: 16px;
+  /* Исправлено: увеличен размер иконки */
   fill: #ffffff;
 }
 
@@ -72,17 +93,21 @@
 .footer-tagline p {
   font-size: 20px;
   line-height: 24px;
-  font-weight: 600;
+  font-weight: 500;
+  /* Исправлено: уменьшен вес шрифта с 600 на 500 */
   letter-spacing: -0.02em;
   color: #ffffff;
   margin: 0;
 }
 
 .footer-contact {
-  width: 160px;
+  width: 180px;
   height: 48px;
-  background-color: #1D1D1D;
-  border-radius: 30px;
+  background-color: #0C0C0C;
+  /* Исправлено: цвет фона кнопки с телефоном */
+  border: 1.5px solid rgba(255, 255, 255, 0.2);
+  /* Исправлено: добавлена серая рамка */
+  border-radius: 15px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -91,9 +116,12 @@
 .phone-link {
   color: #ffffff;
   text-decoration: none;
-  font-size: 16px;
-  font-weight: 500;
-  letter-spacing: -0.01em;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0;
+  padding: 0 25px;
+  /* Добавлен внутренний отступ для номера телефона */
+  white-space: nowrap;
 }
 
 .footer-nav {
@@ -120,7 +148,8 @@
   font-size: 14px;
   font-weight: 400;
   letter-spacing: -0.01em;
-  transition: color var(--animation);
+  transition: color 200ms ease;
+  /* Исправлено: добавлено конкретное значение вместо var(--animation) */
 }
 
 .menu-link:hover {
@@ -134,6 +163,8 @@
   color: #ffffff;
   text-align: center;
   white-space: pre-line;
+  font-style: italic;
+  /* Исправлено: добавлен курсив для адреса */
 }
 
 .footer-bottom {
@@ -164,16 +195,18 @@
   text-decoration: none;
   font-size: 12px;
   font-weight: 400;
-  transition: color var(--animation);
+  transition: color 200ms ease;
+  /* Исправлено: добавлено конкретное значение вместо var(--animation) */
 }
 
 .legal-link:hover {
   color: #ffffff;
 }
 
+/* Медиа-запросы для адаптивности */
 @media (min-width: 768px) {
   .footer {
-    border-radius: 30px;
+    border-radius: 25px;
     padding: 30px;
     margin: 80px 0;
   }
@@ -225,7 +258,8 @@
 
 @media (min-width: 1280px) {
   .footer {
-    max-width: 1136px;
+    max-width: 1216px;
+    /* Исправлено: изменена максимальная ширина с 1136px на 1216px */
     height: 332px;
     padding: 40px;
     margin: 126px auto;
