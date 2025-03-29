@@ -11,7 +11,7 @@
   width: 100%;
   background-color: var(--cards);
   margin-bottom: 20px;
-  /* ---- */
+
   overflow-y: auto;
 }
 
@@ -29,26 +29,24 @@
   text-align: center;
 }
 
-.catalog-card {
-}
-
 .catalog-title {
+  font-weight: 500;
   font-size: 16px;
-  line-height: 125%;
+  line-height: 1.25;
   letter-spacing: -0.02em;
   color: var(--main);
   margin-bottom: 8px;
-  /* -----------------------*/
-  /* max-width: 250px;
+
+  max-width: 250px;
   white-space: nowrap;
   overflow: hidden;
-  text-overflow: ellipsis; */
+  text-overflow: ellipsis;
 }
 
 .catalog-text {
   font-weight: 400;
   font-size: 14px;
-  line-height: 129%;
+  line-height: 1.29;
   letter-spacing: -0.02em;
   color: rgba(12, 12, 12, 0.5);
   text-align: left;
@@ -61,7 +59,7 @@
   height: 48px;
   font-weight: 500;
   font-size: 14px;
-  line-height: 129%;
+  line-height: 1.29;
   text-align: center;
   color: #fbfbfb;
   background-color: #3350e9;
@@ -74,8 +72,6 @@
 .catalog-btn:focus {
   background-color: #1f3cd4;
 }
-
-/* ====================================== */
 
 @media only screen and (min-width: 768px) {
   .catalog-main {
@@ -97,8 +93,7 @@
   .catalog-title {
     font-size: 20px;
 
-    /* ====...==== */
-    /* max-width: 283px; */
+    max-width: 283px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -113,18 +108,15 @@
   }
 }
 
-/* ==========================1270 */
-
 @media only screen and (min-width: 1280px) {
   .catalog-item {
-    /* width: 368px;
-    flex-basis: auto; */
+    width: 368px;
+    flex-basis: auto;
     flex-basis: calc((100% - 46px) / 3);
   }
 
-  /*=====...=====  */
   .catalog-title {
-    /* max-width: 310px; */
+    max-width: 310px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
