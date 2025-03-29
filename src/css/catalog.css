@@ -8,7 +8,7 @@
   border: 1px solid rgba(12, 12, 12, 0.05);
   border-radius: 30px;
   padding: 24px 28px;
-  width: 100%;
+  flex-basis: 100%;
   background-color: var(--cards);
   margin-bottom: 20px;
   padding: 24px 32px;
@@ -19,8 +19,10 @@
   padding-bottom: 10px;
 }
 
-.hidden-product {
-  display: none;
+@media only screen and (max-width: 767px) {
+  .hidden-product {
+    display: none;
+  }
 }
 
 .catalog-photo {
@@ -37,7 +39,6 @@
   color: var(--main);
   margin-bottom: 8px;
 
-  max-width: 250px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -62,6 +63,7 @@
   margin-top: 40px;
   margin-left: auto;
   margin-right: auto;
+  transition: background-color var(--animation);
 }
 
 .catalog-btn:hover,
@@ -91,10 +93,6 @@
 
   .catalog-btn {
     display: none;
-  }
-
-  .hidden-product {
-    display: flex;
   }
 }
 
