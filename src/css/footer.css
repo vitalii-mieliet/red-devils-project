@@ -1,11 +1,5 @@
-/* 
- * Footer styles для сайта WatchCharm
- * Исправлено в соответствии с дизайном из Figma
- */
-
 .footer {
   background-color: #0C0C0C;
-  /* Исправлено: цвет фона в соответствии с макетом */
   color: #ffffff;
   width: 100%;
   max-width: 100%;
@@ -34,9 +28,7 @@
   display: flex;
   flex-direction: column;
   gap: 16px;
-  /* Исправлено: уменьшен отступ между логотипом и иконками */
   align-items: flex-start;
-  /* Исправлено: выравнивание по левому краю */
 }
 
 .footer-logo {
@@ -51,9 +43,7 @@
 .footer-social {
   display: flex;
   gap: 6px;
-  /* Исправлено: уменьшен отступ между иконками для более компактного размещения */
   margin-top: 5px;
-  /* Исправлено: добавлен отступ сверху для лучшего выравнивания с логотипом */
 }
 
 .social-link {
@@ -61,15 +51,10 @@
   align-items: center;
   justify-content: center;
   width: 26px;
-  /* Исправлено: еще больше уменьшен размер контейнера */
   height: 26px;
-  /* Исправлено: еще больше уменьшен размер контейнера */
   border: 0.5px solid rgba(251, 251, 251, 0.08);
-  /* Исправлено: более тонкая и мягкая граница */
   border-radius: 10px;
-  /* Исправлено: возвращен более мягкий радиус скругления */
   padding: 6px;
-  /* Исправлено: уменьшен внутренний отступ */
   transition: 200ms ease;
 }
 
@@ -79,9 +64,7 @@
 
 .icon {
   width: 16px;
-  /* Исправлено: увеличен размер иконки */
   height: 16px;
-  /* Исправлено: увеличен размер иконки */
   fill: #ffffff;
 }
 
@@ -94,7 +77,6 @@
   font-size: 20px;
   line-height: 24px;
   font-weight: 500;
-  /* Исправлено: уменьшен вес шрифта с 600 на 500 */
   letter-spacing: -0.02em;
   color: #ffffff;
   margin: 0;
@@ -104,9 +86,7 @@
   width: 180px;
   height: 48px;
   background-color: #0C0C0C;
-  /* Исправлено: цвет фона кнопки с телефоном */
   border: 1.5px solid rgba(255, 255, 255, 0.2);
-  /* Исправлено: добавлена серая рамка */
   border-radius: 15px;
   display: flex;
   align-items: center;
@@ -120,7 +100,6 @@
   font-weight: 400;
   letter-spacing: 0;
   padding: 0 25px;
-  /* Добавлен внутренний отступ для номера телефона */
   white-space: nowrap;
 }
 
@@ -149,7 +128,6 @@
   font-weight: 400;
   letter-spacing: -0.01em;
   transition: color 200ms ease;
-  /* Исправлено: добавлено конкретное значение вместо var(--animation) */
 }
 
 .menu-link:hover {
@@ -164,7 +142,6 @@
   text-align: center;
   white-space: pre-line;
   font-style: italic;
-  /* Исправлено: добавлен курсив для адреса */
 }
 
 .footer-bottom {
@@ -196,14 +173,12 @@
   font-size: 12px;
   font-weight: 400;
   transition: color 200ms ease;
-  /* Исправлено: добавлено конкретное значение вместо var(--animation) */
 }
 
 .legal-link:hover {
   color: #ffffff;
 }
 
-/* Медиа-запросы для адаптивности */
 @media (min-width: 768px) {
   .footer {
     border-radius: 25px;
@@ -259,7 +234,6 @@
 @media (min-width: 1280px) {
   .footer {
     max-width: 1216px;
-    /* Исправлено: изменена максимальная ширина с 1136px на 1216px */
     height: 332px;
     padding: 40px;
     margin: 126px auto;
