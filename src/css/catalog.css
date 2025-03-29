@@ -11,6 +11,7 @@
   width: 100%;
   background-color: var(--cards);
   margin-bottom: 20px;
+  padding: 24px 32px;
 
   overflow-y: auto;
 }
@@ -87,7 +88,6 @@
 
   .catalog-item {
     flex-basis: calc((100% - 16px) / 2);
-    padding: 24px 32px;
   }
 
   .catalog-title {
@@ -111,7 +111,6 @@
 @media only screen and (min-width: 1280px) {
   .catalog-item {
     width: 368px;
-    flex-basis: auto;
     flex-basis: calc((100% - 46px) / 3);
   }
 
