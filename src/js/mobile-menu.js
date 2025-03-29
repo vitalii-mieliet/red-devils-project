@@ -1,19 +1,3 @@
-// document.querySelectorAll('.js-mobile-menu').forEach(btn => {
-//   btn.addEventListener('click', () => {
-//     document
-//       .querySelector('.header-modal-mobile-menu')
-//       .classList.toggle('is-open');
-//   });
-// });
-
-// document.querySelectorAll('.js-form-menu').forEach(btn => {
-//   btn.addEventListener('click', () => {
-//     document
-//       .querySelector('.header-modal-mobile-menu')
-//       .classList.toggle('is-open');
-//   });
-// });
-
 document.addEventListener('DOMContentLoaded', function () {
   const mobileMenu = document.querySelector('.header-modal-mobile-menu');
   const openMenuBtn = document.querySelector('.burger-btn.js-mobile-menu');

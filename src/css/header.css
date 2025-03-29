@@ -161,18 +161,27 @@
   padding-bottom: 40px;
   z-index: 999;
   overflow-y: auto;
-  opacity: 0;
-  transition: opacity var(--animation);
+
   display: flex;
   flex-direction: column;
+
+  opacity: 0;
   visibility: hidden;
   pointer-events: none;
+
+  transform: translateX(100%);
+  transition: transform var(--animation), opacity var(--animation),
+    visibility 0s 0.3s;
 }
 
 .is-open {
+  transform: translateX(0);
+
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
+  transition: transform var(--animation), opacity var(--animation),
+    visibility 0s 0s;
 }
 .close-btn {
   width: 34px;
