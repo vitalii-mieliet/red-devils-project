@@ -88,11 +88,7 @@
 
   .catalog-title {
     font-size: 20px;
-
     max-width: 283px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
   }
 
   .catalog-btn {
@@ -106,14 +102,10 @@
 
 @media only screen and (min-width: 1280px) {
   .catalog-item {
-    width: 368px;
     flex-basis: calc((100% - 46px) / 3);
   }
 
   .catalog-title {
     max-width: 310px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
   }
 }
