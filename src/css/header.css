@@ -123,6 +123,7 @@
   }
 
   .header-list-link {
+    display: inline-block;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.29;
@@ -209,12 +210,12 @@
   text-align: center;
 }
 
-.header-list-item-mobile-menu.current {
+.header-list-link-mobile-menu.current {
   position: relative;
   padding-bottom: 10px;
 }
 
-.header-list-item-mobile-menu.current::after {
+.header-list-link-mobile-menu.current::after {
   content: '';
   position: absolute;
   width: 8px;

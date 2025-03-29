@@ -12,7 +12,7 @@ document
       if (targetElement) {
         const headerHeight =
           document.querySelector('.header-wrapper').offsetHeight;
-        const offset = 0; // Дополнительный отступ от хедера
+        const offset = 10; // Дополнительный отступ от хедера
 
         window.scrollTo({
           top: targetElement.offsetTop - headerHeight - offset,
