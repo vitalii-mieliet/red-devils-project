@@ -12,8 +12,7 @@
   background-color: var(--cards);
   margin-bottom: 20px;
   padding: 24px 32px;
-
-  overflow-y: auto;
+  overflow: hidden;
 }
 
 .catalog-card-img {
@@ -88,7 +87,6 @@
 
   .catalog-title {
     font-size: 20px;
-    max-width: 283px;
   }
 
   .catalog-btn {
@@ -103,9 +101,5 @@
 @media only screen and (min-width: 1280px) {
   .catalog-item {
     flex-basis: calc((100% - 46px) / 3);
-  }
-
-  .catalog-title {
-    max-width: 310px;
   }
 }
