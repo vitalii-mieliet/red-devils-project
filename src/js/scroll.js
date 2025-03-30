@@ -8,10 +8,14 @@ document.querySelectorAll('.js-nav-link').forEach(anchor => {
     if (targetElement) {
       const headerHeight =
         document.querySelector('.header-wrapper').offsetHeight;
-      const offset = 10; // Дополнительный отступ от хедера
+      const offset = 10;
+
+      // Получаем правильную позицию элемента относительно документа
+      const targetPosition =
+        targetElement.getBoundingClientRect().top + window.pageYOffset;
 
       window.scrollTo({
-        top: targetElement.offsetTop - headerHeight - offset,
+        top: targetPosition - headerHeight - offset,
         behavior: 'smooth',
       });
     }
