@@ -12,8 +12,13 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.3/dist/css/splide.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.3/dist/js/splide.min.js"></script>
     <script type="module" crossorigin src="/red-devils-project/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/red-devils-project/assets/index-BKqmuryC.css">
+    <link rel="stylesheet" crossorigin href="/red-devils-project/assets/index-DIXIpBC8.css">
   </head>
   <body>
     <header class="header-wrapper">
@@ -677,50 +682,54 @@
       <section class="section" id="reviews">
   <div class="container">
     <h2 class="section-title reviews-title">Reviews</h2>
-    <ul class="reviews-list">
-      <li class="reviews-list-item">
-        <img
-          class="reviews-photo"
-          srcset="/red-devils-project/assets/john-DyYQ0cxC.png 1x, /red-devils-project/assets/john@2x-yhuniO4-.png 2x"
-          src="/red-devils-project/assets/john-DyYQ0cxC.png"
-          alt="John Wax"
-        />
-        <h3 class="reviews-list-title">John Wax</h3>
-        <p class="reviews-list-text">
-          Buying a watch from was the best choice for me. The design is
-          perfectly combined with high quality materials. The strap fits nicely
-          on the hand, and the mechanism works flawlessly.
-        </p>
-      </li>
-      <li class="reviews-list-item">
-        <img
-          class="reviews-photo"
-          srcset="/red-devils-project/assets/victoria-DnzOygAo.png 1x, /red-devils-project/assets/victoria@2x-BaeKTe1r.png 2x"
-          src="/red-devils-project/assets/victoria-DnzOygAo.png"
-          alt="Victoria Romashenko"
-        />
-        <h3 class="reviews-list-title">Victoria Romashenko</h3>
-        <p class="reviews-list-text">
-          Can't take my eyes off my watch from. Every time I put it on, it is
-          admired by those around me. The build quality and attention to detail
-          make it a real gem among my accessories.
-        </p>
-      </li>
-      <li class="reviews-list-item">
-        <img
-          class="reviews-photo"
-          srcset="/red-devils-project/assets/anastasia-B4s5SyQx.png 1x, /red-devils-project/assets/anastasia@2x-DkXfejN4.png 2x"
-          src="/red-devils-project/assets/anastasia-B4s5SyQx.png"
-          alt="Anastasia Trachuk"
-        />
-        <h3 class="reviews-list-title">Anastasia Trachuk</h3>
-        <p class="reviews-list-text">
-          My watch from is a real masterpiece. Every detail impresses with the
-          high quality of execution. Special features like [specify features]
-          make it an indispensable companion in my daily life.
-        </p>
-      </li>
-    </ul>
+    <div class="splide" id="reviews-slider">
+      <div class="splide__track">
+        <ul class="splide__list reviews-list">
+          <li class="splide__slide reviews-list-item">
+            <img
+              class="reviews-photo"
+              srcset="/red-devils-project/assets/john-DyYQ0cxC.png 1x, /red-devils-project/assets/john@2x-yhuniO4-.png 2x"
+              src="/red-devils-project/assets/john-DyYQ0cxC.png"
+              alt="John Wax"
+            />
+            <h3 class="reviews-list-title">John Wax</h3>
+            <p class="reviews-list-text">
+              Buying a watch from was the best choice for me. The design is
+              perfectly combined with high quality materials. The strap fits
+              nicely on the hand, and the mechanism works flawlessly.
+            </p>
+          </li>
+          <li class="splide__slide reviews-list-item">
+            <img
+              class="reviews-photo"
+              srcset="/red-devils-project/assets/victoria-DnzOygAo.png 1x, /red-devils-project/assets/victoria@2x-BaeKTe1r.png 2x"
+              src="/red-devils-project/assets/victoria-DnzOygAo.png"
+              alt="Victoria Romashenko"
+            />
+            <h3 class="reviews-list-title">Victoria Romashenko</h3>
+            <p class="reviews-list-text">
+              Can't take my eyes off my watch from. Every time I put it on, it
+              is admired by those around me. The build quality and attention to
+              detail make it a real gem among my accessories.
+            </p>
+          </li>
+          <li class="splide__slide reviews-list-item">
+            <img
+              class="reviews-photo"
+              srcset="/red-devils-project/assets/anastasia-B4s5SyQx.png 1x, /red-devils-project/assets/anastasia@2x-DkXfejN4.png 2x"
+              src="/red-devils-project/assets/anastasia-B4s5SyQx.png"
+              alt="Anastasia Trachuk"
+            />
+            <h3 class="reviews-list-title">Anastasia Trachuk</h3>
+            <p class="reviews-list-text">
+              My watch from is a real masterpiece. Every detail impresses with
+              the high quality of execution. Special features like [specify
+              features] make it an indispensable companion in my daily life.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
   </div>
 </section>
 
