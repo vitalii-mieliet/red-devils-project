@@ -6,6 +6,7 @@
   position: sticky;
   top: 0;
   left: 0;
+  z-index: 998;
   background-color: var(--background);
 }
 
