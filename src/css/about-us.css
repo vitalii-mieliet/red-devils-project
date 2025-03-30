@@ -45,12 +45,14 @@
     border-radius: 50px;
   }
 
-  .about-txt {
-    padding-top: 40px;
+  .about-txt-first {
+    margin-top: 40px;
   }
 
   .about-btn {
-    margin-top: 75px;
+    margin-top: 60px;
+    font-size: 14px;
+    line-height: 1.29;
   }
 
   .about-img {
