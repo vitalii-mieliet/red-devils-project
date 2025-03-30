@@ -1,5 +1,7 @@
 .footer-wrapper {
   margin-top: 30px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .footer-container {
@@ -245,6 +247,7 @@
 
 @media screen and (min-width: 1280px) {
   .footer-wrapper {
+    width: 1216px;
     margin-top: 50px;
   }
 
