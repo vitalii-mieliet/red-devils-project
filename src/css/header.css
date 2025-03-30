@@ -6,7 +6,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  background-color: white;
+  background-color: var(--background);
 }
 
 .header-container {
