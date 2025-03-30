@@ -47,13 +47,14 @@
 }
 
 .hero-list-item:nth-child(n+2) {
-    margin-left: -12px;
+    margin-left: -14px;
 }
 
 .hero-list-item-img {
     border-radius: 100%;
     border: 2px solid #fbfbfb;
     background-color: #F3F3F3;
+    width: 44px;
 }
 
 .hero-scroll-link {
@@ -117,6 +118,8 @@
 
     .hero-scroll-link {
         min-width: 102px;
+        font-size: 20px;
+        line-height: 1;
         }
 
     .hero-section-img {
