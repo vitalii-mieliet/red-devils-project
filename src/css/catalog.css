@@ -20,7 +20,7 @@
 }
 
 @media only screen and (max-width: 767px) {
-  .hidden-product {
+  .hidden {
     display: none;
   }
 }

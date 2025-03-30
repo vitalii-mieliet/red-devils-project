@@ -142,11 +142,11 @@
         </div>
       </li>
 
-      <li class="catalog-item hidden-product">
+      <li class="catalog-item hidden">
         <div class="catalog-card-img">
           <picture>
             <source
-              media="(max-width: 767px)"
+              media="screen and(max-width: 767px)"
               srcset="
                 ./img/catalog/mob/mob-05.webp    1x,
                 ./img/catalog/mob/mob-05@2x.webp 2x
@@ -177,15 +177,21 @@
         </div>
       </li>
 
-      <li class="catalog-item hidden-product">
+      <li class="catalog-item hidden">
         <div class="catalog-card-img">
           <picture>
-            <source media="(max-width: 767px)" srcset="./img/catalog/mob/mo" />
+            <source
+              media="screen and(max-width: 767px)"
+              srcset="
+                ./img/catalog/mob/mob-05.webp    1x,
+                ./img/catalog/mob/mob-05@2x.webp 2x
+              "
+            />
             <source
               media="screen and (max-width: 1279px)"
               srcset="
-                ./img/catalog/tab/tab-06.webp    1x,
-                ./img/catalog/tab/tab-06@2x.webp 2x
+                /img/catalog/tab/tab-06.webp    1x,
+                /img/catalog/tab/tab-06@2x.webp 2x
               "
             />
             <img
@@ -193,7 +199,7 @@
               src="./img/catalog/desk/desk-06.webp"
               srcset="
                 ./img/catalog/desk/desk-06.webp    1x,
-                ./img/catalog/desk/desk-06@2x.webp 2x
+                ./img/catalog/desk/desk-05@2x.webp 2x
               "
               alt="Tube Watch S42 Date Steel With Black Case"
               width="279"
@@ -209,6 +215,6 @@
       </li>
     </ul>
 
-    <button class="catalog-btn">Show more</button>
+    <button id="showMore" class="catalog-btn">Show more</button>
   </div>
 </section>
