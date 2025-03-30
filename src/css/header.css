@@ -222,6 +222,7 @@
 }
 
 .header-list-link-mobile-menu.current {
+  display: inline-block;
   position: relative;
   padding-bottom: 10px;
 }
