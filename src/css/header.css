@@ -1,0 +1,334 @@
+/* ========= Mobile style ============ */
+
+.header-wrapper {
+  border-bottom: 1px solid rgba(12, 12, 12, 0.1);
+  width: 100%;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 998;
+  background-color: var(--background);
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.burger-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.burger-icons {
+  fill: var(--main);
+  stroke-width: 3px;
+  stroke: var(--main);
+}
+
+.header-ul-list,
+.header-social {
+  display: none;
+}
+
+.header-logo {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  color: var(--main);
+  padding-top: 28px;
+  padding-bottom: 28px;
+}
+/* ========= Mobile style ============ */
+
+/* ========= Table style ============ */
+
+@media screen and (min-width: 768px) {
+  .header-logo {
+    font-size: 20px;
+    padding-top: 34px;
+    padding-bottom: 34px;
+  }
+}
+
+/* ========= Table style ============ */
+
+/* ========= Desktop style ============ */
+
+@media screen and (min-width: 1280px) {
+  .header-logo {
+    margin-right: 203px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
+  .header-nav-list {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .header-ul-list {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 40px;
+  }
+
+  .burger-btn {
+    display: none;
+  }
+
+  .header-social {
+    display: flex;
+  }
+
+  .header-social-list {
+    display: flex;
+    gap: 10px;
+  }
+
+  .header-social-list-item {
+    border: 1px solid rgba(12, 12, 12, 0.1);
+    border-radius: 10px;
+    padding: 8px;
+    width: 36px;
+    height: 36px;
+    transition: border var(--animation);
+  }
+
+  .header-social-list-item:hover,
+  .header-social-list-item:hover {
+    border: 1px solid rgba(51, 80, 233, 0.1);
+  }
+
+  .header-icon-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .header-icon-style {
+    fill: var(--main);
+    transition: fill var(--animation);
+  }
+
+  .header-icon-style:hover,
+  .header-icon-style:focus {
+    fill: var(--hover-focus-blue-color);
+  }
+
+  .header-list-link.current {
+    display: flex;
+    position: relative;
+  }
+
+  .header-list-link {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    padding-top: 26px;
+    padding-bottom: 26px;
+  }
+
+  .header-list-link.current::after {
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: var(--accent);
+    bottom: 14px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+/* ========= Desktop style ============ */
+
+/* ========= Modal style ============ */
+
+.header-modal-mobile-menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: var(--main);
+  background-image: url(/img/header/backlog-modal-mobile.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 200px;
+  height: 100%;
+  padding-bottom: 40px;
+  z-index: 999;
+  overflow-y: auto;
+
+  display: flex;
+  flex-direction: column;
+
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+
+  transform: translateX(100%);
+  transition: transform var(--animation), opacity var(--animation),
+    visibility 0s 0.3s;
+}
+
+.is-open {
+  transform: translateX(0);
+
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transition: transform var(--animation), opacity var(--animation),
+    visibility 0s 0s;
+}
+.close-btn {
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 20px;
+  right: 20px;
+}
+
+.close-icons {
+  width: 17px;
+  height: 17px;
+  fill: var(--background);
+}
+
+.header-nav-list-mobile-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.header-ul-list-mobile-menu {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+
+.header-list-item-mobile-menu {
+  color: var(--background);
+  text-align: center;
+}
+
+.header-list-link-mobile-menu.current {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.header-list-link-mobile-menu.current::after {
+  content: '';
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: var(--accent);
+  bottom: -2px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.header-social-list-mobile-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+
+.header-social-list-item-mobile-menu {
+  border: 1px solid rgba(251, 251, 251, 0.1);
+  border-radius: 10px;
+  padding: 8px;
+  width: 34px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-list-link-mobile-menu {
+  padding: 5px 10px;
+}
+
+.header-icon-link-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-icon-style-mobile-menu {
+  fill: var(--background);
+  width: 18px;
+  height: 18px;
+  opacity: 0.8;
+  transition: opacity var(--animation);
+}
+
+.header-icon-style-mobile-menu:hover,
+.header-icon-style-mobile-menu:focus {
+  opacity: 1;
+}
+
+@media screen and (min-width: 768px) {
+  .header-modal-mobile-menu {
+    width: 330px;
+    background-image: url(/img/header/backlog-mobile-menu-table.webp);
+    padding-bottom: 50px;
+  }
+
+  .header-ul-list-mobile-menu {
+    row-gap: 32px;
+  }
+
+  .close-btn {
+    width: 40px;
+    height: 40px;
+    top: 26px;
+    right: 32px;
+  }
+
+  .close-icons {
+    width: 20px;
+    height: 20px;
+  }
+
+  .header-social-list-item-mobile-menu {
+    width: 36px;
+    height: 36px;
+  }
+
+  .header-icon-style-mobile-menu {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) and (min-resolution: 2x) {
+  .header-modal-mobile-menu {
+    background-image: url(/img/header/backlog-modal-mobile@2x.webp);
+  }
+}
+
+@media screen and (min-width: 768px) and (min-resolution: 2x) {
+  .header-modal-mobile-menu {
+    background-image: url(/img/header/backlog-mobile-menu-table@2x.webp);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .header-modal-mobile-menu {
+    display: none;
+  }
+}
