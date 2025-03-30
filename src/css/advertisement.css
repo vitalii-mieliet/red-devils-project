@@ -36,6 +36,8 @@
   text-decoration: none;
   transition: background-color var(--animation), color var(--animation);
   align-self: flex-start;
+  font-size: 14px;
+  line-height: 1.28571;
 }
 
 .advert-button-link:hover,
