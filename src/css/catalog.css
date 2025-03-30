@@ -11,16 +11,12 @@
   flex-basis: 100%;
   background-color: var(--cards);
   margin-bottom: 20px;
-  padding: 24px 32px;
+  padding: 24px 28px;
   overflow: hidden;
 }
 
-.catalog-card-img {
-  padding-bottom: 10px;
-}
-
 .catalog-photo {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   border-radius: 100%;
   text-align: center;
 }

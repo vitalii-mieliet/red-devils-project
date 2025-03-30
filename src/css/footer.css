@@ -1,5 +1,7 @@
 .footer-wrapper {
   margin-top: 30px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .footer-container {
@@ -18,9 +20,8 @@
 }
 
 .footer-logo {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 500;
-  line-height: 24px;
   letter-spacing: -0.02em;
   color: #ffffff;
 }
@@ -37,8 +38,6 @@
   border: 1px solid rgba(251, 251, 251, 0.1);
   border-radius: 10px;
   padding: 8px;
-  width: 34px;
-  height: 34px;
   opacity: 0.8;
   transition: opacity var(--animation);
 }
@@ -59,7 +58,7 @@
   height: 44px;
   font-weight: 500;
   font-size: 12px;
-  line-height: 1.33333;
+  line-height: 1.33;
   display: inline-block;
   padding: 14px 20px;
   text-align: center;
@@ -113,7 +112,7 @@
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
-  line-height: 1.33333;
+  line-height: 1.33;
   color: #fbfbfb;
 }
 
@@ -166,9 +165,18 @@
     justify-content: space-between;
   }
 
+  .footer-logo {
+    font-size: 20px;
+  }
+
   .footer-social-box {
     align-items: flex-start;
     margin-bottom: 86px;
+  }
+
+  .footer-social .icon {
+    width: 20px;
+    height: 20px;
   }
 
   .phone-link {
@@ -195,7 +203,7 @@
 
   .footer-menu {
     flex-basis: auto;
-    column-gap: 19px;
+    column-gap: 22px;
     flex-wrap: nowrap;
   }
 
@@ -206,7 +214,7 @@
 
   .footer-address {
     font-size: 14px;
-    line-height: 1.28571;
+    line-height: 1.29;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -239,6 +247,7 @@
 
 @media screen and (min-width: 1280px) {
   .footer-wrapper {
+    width: 1216px;
     margin-top: 50px;
   }
 

@@ -52,12 +52,17 @@
   .advert-image {
     background-image: url('/img/advertisement/advert-tablet.png');
     padding: 80px 64px;
-    gap: 32px;
   }
   .advert-text {
     font-size: 48px;
     line-height: 0.91667;
     max-width: 576px;
+  }
+
+  .advert-button-link {
+    margin-top: 15px;
+    font-size: 14px;
+    line-height: 1.28571;
   }
 }
 /* #endregion for tablet */
