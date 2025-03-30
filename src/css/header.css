@@ -38,8 +38,8 @@
   font-size: 16px;
   letter-spacing: -0.02em;
   color: var(--main);
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 28px;
+  padding-bottom: 28px;
 }
 /* ========= Mobile style ============ */
 
@@ -48,8 +48,8 @@
 @media screen and (min-width: 768px) {
   .header-logo {
     font-size: 20px;
-    padding-top: 26px;
-    padding-bottom: 26px;
+    padding-top: 34px;
+    padding-bottom: 34px;
   }
 }
 
@@ -60,6 +60,8 @@
 @media screen and (min-width: 1280px) {
   .header-logo {
     margin-right: 203px;
+    padding-top: 32px;
+    padding-bottom: 32px;
   }
 
   .header-nav-list {
