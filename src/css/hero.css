@@ -118,6 +118,8 @@
 
     .hero-scroll-link {
         min-width: 102px;
+        font-size: 20px;
+        line-height: 1;
         }
 
     .hero-section-img {
