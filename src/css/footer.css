@@ -1,14 +1,18 @@
 .footer-wrapper {
-  margin-top: 30px;
+  padding-top: 30px;
+  padding-bottom: 20px;
 }
 
 .footer-container {
   border-radius: 30px;
   padding: 40px 28px 28px 28px;
   background-color: #0c0c0c;
-  color: #ffffff;
+  color: #fbfbfb;
 }
 
+.footer-top {
+  margin-bottom: 92px;
+}
 .footer-social-box {
   display: flex;
   flex-direction: column;
@@ -21,7 +25,7 @@
   font-size: 16px;
   font-weight: 500;
   letter-spacing: -0.02em;
-  color: #ffffff;
+  color: #fbfbfb;
 }
 
 .footer-social {
@@ -48,7 +52,7 @@
 .icon {
   width: 18px;
   height: 18px;
-  fill: #ffffff;
+  fill: #fbfbfb;
 }
 
 .phone-link {
@@ -79,7 +83,6 @@
   letter-spacing: -0.02em;
   text-align: center;
   color: #fbfbfb;
-  margin-bottom: 92px;
 }
 
 .footer-nav {
@@ -155,15 +158,13 @@
 
 .legal-link:hover,
 .legal-link:focus {
-  color: #ffffff;
+  color: #fbfbfb;
 }
 
 @media screen and (min-width: 768px) {
-  .footer-wrapper .container {
-    padding: 0 32px;
-  }
   .footer-wrapper {
-    margin-top: 40px;
+    padding-top: 40px;
+    padding-bottom: 32px;
   }
 
   .footer-container {
@@ -174,6 +175,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-bottom: 100px;
   }
 
   .footer-logo {
@@ -204,7 +206,6 @@
     margin: 0 auto;
     text-align: center;
     color: #fbfbfb;
-    margin-bottom: 100px;
   }
 
   .footer-nav {
@@ -257,8 +258,13 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .footer-wrapper .container {
+    padding-right: 32px;
+    padding-left: 32px;
+  }
+
   .footer-wrapper {
-    margin-top: 50px;
+    padding-top: 50px;
   }
 
   .footer-social-box {
