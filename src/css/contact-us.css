@@ -53,10 +53,11 @@
   border-color: #3350e9;
 }
 
-.contact-form {
+.contact-form-fields {
   display: flex;
   flex-direction: column;
   gap: 18px;
+  margin-bottom: 28px;
 }
 
 .contact-form-input.textarea-input {
@@ -89,7 +90,6 @@
   line-height: 1.29;
   text-align: center;
   color: #fbfbfb;
-  margin-top: 10px;
   transition: background-color var(--animation);
 }
 
@@ -115,6 +115,10 @@
     font-size: 16px;
     line-height: 1.25;
   }
+
+  .contact-form-fields {
+    margin-bottom: 32px;
+  }
   .contact-form-input::placeholder {
     font-size: 16px;
     line-height: 1.25;
@@ -136,7 +140,6 @@
     width: 160px;
     height: 52px;
     background-color: #3350e9;
-    margin-top: 14px;
   }
 }
 
