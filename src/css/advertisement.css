@@ -5,7 +5,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #0c0c0c;
-  display: flex;
+  display: block;
   flex-direction: column;
   gap: 28px;
   background-position: center;
@@ -17,6 +17,7 @@
   line-height: 1;
   letter-spacing: -0.02em;
   color: #fbfbfb;
+  margin-bottom: 28px;
 }
 
 .advert-span-yourstory {
@@ -57,10 +58,11 @@
     font-size: 48px;
     line-height: 0.91667;
     max-width: 576px;
+    margin-bottom: 32px;
   }
 
   .advert-button-link {
-    margin-top: 15px;
+    /* margin-top: 15px; */
     font-size: 14px;
     line-height: 1.28571;
   }
@@ -71,6 +73,7 @@
 
 @media screen and (min-width: 1280px) {
   .advert-image {
+    display: flex;
     background-image: url('/img/advertisement/advert-desc.png');
     padding: 83px 80px;
     flex-direction: row;
@@ -79,6 +82,7 @@
 
   .advert-text {
     max-width: 690px;
+    margin-bottom: 0;
   }
 }
 /* #endregion for desc */

@@ -88,12 +88,12 @@
   background-color: #3350e9;
   line-height: 1.29;
   text-align: center;
-  margin-top: 10px;
   color: #fbfbfb;
   transition: background-color var(--animation);
 }
 
-.contact-us-btn-send:hover {
+.contact-us-btn-send:hover,
+.contact-us-btn-send:focus {
   background-color: #1f3cd4;
 }
 
