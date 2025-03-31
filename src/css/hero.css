@@ -64,6 +64,12 @@
   text-decoration-skip-ink: none;
   text-align: right;
   min-width: 72px;
+  transition: color var(--animation);
+}
+
+.hero-scroll-link:hover,
+.hero-scroll-link:focus {
+  color: #3350e9;
 }
 
 .hero-section-img {
