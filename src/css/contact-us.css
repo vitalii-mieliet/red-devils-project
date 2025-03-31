@@ -1,7 +1,7 @@
 .contact-us-title {
   margin-bottom: 24px;
 }
-.contact-us-list {
+.contact-us {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -89,6 +89,7 @@
   line-height: 1.29;
   text-align: center;
   color: #fbfbfb;
+  margin-top: 10px;
   transition: background-color var(--animation);
 }
 
@@ -101,7 +102,7 @@
   .contact-us-title {
     margin-bottom: 40px;
   }
-  .contact-us-list {
+  .contact-us {
     gap: 40px;
   }
   .contact-form-container {
@@ -135,6 +136,7 @@
     width: 160px;
     height: 52px;
     background-color: #3350e9;
+    margin-top: 14px;
   }
 }
 
