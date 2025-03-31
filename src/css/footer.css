@@ -67,6 +67,13 @@
   text-align: center;
   color: #fbfbfb;
   margin-bottom: 40px;
+  transition: background-color var(--animation), color var(--animation);
+}
+
+.phone-link:hover,
+.phone-link:focus {
+  color: var(--main);
+  background-color: var(--background);
 }
 
 .footer-tagline {
@@ -101,7 +108,7 @@
   font-size: 12px;
   line-height: 1.33333;
   color: #fbfbfb;
-  transition: color 200ms ease;
+  transition: color var(--animation);
 }
 
 .menu-link:hover,
@@ -146,7 +153,7 @@
   letter-spacing: -0.02em;
   text-align: right;
   color: rgba(251, 251, 251, 0.5);
-  transition: color 200ms ease;
+  transition: color var(--animation);
 }
 
 .legal-link:hover,
