@@ -3,14 +3,10 @@
 }
 .contact-us {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-direction: column;
+
   gap: 20px;
   justify-content: center;
-}
-
-.contact-us-item {
-  width: 100%;
 }
 
 .contact-form-container {
@@ -144,14 +140,14 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .contact-us-item:nth-child(1) {
-    width: 580px;
-  }
-  .contact-us-item:nth-child(2) {
-    width: 530px;
+  .contact-us {
+    flex-direction: row;
   }
 
   .contact-form-container {
-    padding: 50px 60px;
+    width: 580px;
+  }
+  .contact-us-image {
+    width: 530px;
   }
 }
