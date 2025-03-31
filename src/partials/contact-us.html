@@ -9,7 +9,7 @@
               Please use the form below to contact us. Enter your name, email,
               phone, and message and we'll get back to you shortly.
             </p>
-            <form class="contact-form">
+            <form class="contact-form" id="contact-form">
               <div class="contact-form-item">
                 <label for="name" aria-label="Name">
                   <input
@@ -58,8 +58,14 @@
                   ></textarea>
                 </label>
               </div>
-              <button type="submit" class="contact-us-btn-send">Send</button>
             </form>
+            <button
+              type="submit"
+              form="contact-form"
+              class="contact-us-btn-send"
+            >
+              Send
+            </button>
           </div>
         </li>
         <li class="contact-us-item">
