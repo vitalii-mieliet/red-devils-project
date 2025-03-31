@@ -17,6 +17,8 @@
 }
 
 .burger-btn {
+  width: 34px;
+  height: 34px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -51,6 +53,16 @@
     font-size: 20px;
     padding-top: 34px;
     padding-bottom: 34px;
+  }
+
+  .burger-btn {
+    width: 40px;
+    height: 40px;
+  }
+
+  .burger-icons {
+    width: 34px;
+    height: 16px;
   }
 }
 
