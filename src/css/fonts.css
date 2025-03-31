@@ -11,6 +11,7 @@
     url(../fonts/Gilroy-Medium.ttf) format('ttf');
   font-weight: 500;
   font-style: normal;
+  font-display: swap;
 }
 
 /* ==================== */
@@ -24,6 +25,7 @@
     url(../fonts/Gilroy-Semibold.ttf) format('ttf');
   font-weight: 600;
   font-style: normal;
+  font-display: swap;
 }
 
 /* ==================== */
@@ -37,6 +39,7 @@
     url(../fonts/Gilroy-Regular.ttf) format('ttf');
   font-weight: 400;
   font-style: normal;
+  font-display: swap;
 }
 
 /* ==================== */
@@ -50,4 +53,5 @@
     url(../fonts/Gilroy-Bold.ttf) format('ttf');
   font-weight: 700;
   font-style: normal;
+  font-display: swap;
 }
