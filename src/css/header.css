@@ -100,7 +100,7 @@
   }
 
   .header-social-list-item:hover,
-  .header-social-list-item:hover {
+  .header-social-list-item:focus {
     border: 1px solid rgba(51, 80, 233, 0.1);
   }
 
