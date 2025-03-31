@@ -63,7 +63,7 @@
   text-align: center;
   color: #fbfbfb;
   margin-bottom: 40px;
-  transition: color var(--animation), background-color var(--animation);
+  transition: background-color var(--animation), color var(--animation);
 }
 
 .phone-link:hover,
