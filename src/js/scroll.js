@@ -10,7 +10,6 @@ document.querySelectorAll('.js-nav-link').forEach(anchor => {
         document.querySelector('.header-wrapper').offsetHeight;
       const offset = 10;
 
-      // Получаем правильную позицию элемента относительно документа
       const targetPosition =
         targetElement.getBoundingClientRect().top + window.pageYOffset;
 
