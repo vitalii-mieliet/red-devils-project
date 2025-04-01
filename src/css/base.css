@@ -60,3 +60,8 @@ body {
   clip: rect(0, 0, 0, 0);
   clip-path: inset(100%);
 }
+
+.no-scroll {
+  overflow: hidden;
+  height: 100vh;
+}
