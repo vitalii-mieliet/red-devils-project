@@ -1,6 +1,9 @@
 /* Styles for Mobile devices */
-.container {
+body {
   min-width: 320px;
+}
+
+.container {
   max-width: 375px;
   padding: 0 20px;
   margin: 0 auto;
