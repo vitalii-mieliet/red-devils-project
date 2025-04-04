@@ -29,6 +29,18 @@ body {
   color: var(--main);
 }
 
+@media only screen and (max-width: 1279px) {
+  body {
+    overflow-y: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  body::-webkit-scrollbar {
+    display: none;
+  }
+}
+
 .section-title {
   font-weight: 600;
   font-size: 32px;
