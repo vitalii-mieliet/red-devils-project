@@ -53,13 +53,13 @@ Watch our project presentation on YouTube:
 
 ## 👥 Team Members
 
-| Name                   | GitHub Username                                           | Role         | Responsibilities                    | Contact Info                                                           |
-| ---------------------- | --------------------------------------------------------- | ------------ | ----------------------------------- | ---------------------------------------------------------------------- |
-| **Vitalii Melet**      | [vitalii-mieliet](https://github.com/vitalii-mieliet)     | Team Lead    | Common styles, animations, JS logic | vitalii.mieliet@gmail.com, [Tg: @vvill_im](https://t.me/vvill_im)      |
-| **Valeriia Dumikh**    | [RozLera](https://github.com/RozLera)                     | Scrum Master | Catalog section                     | konobor@gmail.com, [Tg: @Rozler](https://t.me/Rozler)                  |
-| **Mykola Bubriak**     | [Nicolae24](https://github.com/Nicolae24)                 | Developer    | Advertisement section               | kolja651@gmail.com, [Tg: @koliabubriak](https://t.me/koliabubriak)     |
-| **Dmytro Severyn**     | [dlmak1](https://github.com/dlmak1)                       | Developer    | Sale section                        | dlmakseverin@gmail.com, [Tg: @dlmak](https://t.me/dlmak)               |
-| **Andrii Lesnikov**    | [AndriiLesnicov](https://github.com/AndriiLesnicov)       | Developer    | About Us section                    | andriilesnicov@gmail.com, [Tg: @andforester](https://t.me/andforester) |
-| **Oleksii Yakovlev**   | [Oleksii-fullstack](https://github.com/Oleksii-fullstack) | Developer    | Hero section, Footer                | aleksoyak@gmail.com                                                    |
-| **Artem Absaliamov**   | [Artem-Absaliamov](https://github.com/Artem-Absaliamov)   | Developer    | Footer                              | sxallordd@gmail.com, [Tg: @sxallord](https://t.me/sxallord)            |
-| **Vladyslav Prokopii** | [prokopiy203](https://github.com/prokopiy203)             | Developer    | Header section                      | vladprokopiy@gmail.com, [Tg: @VladProkopiy](https://t.me/VladProkopiy) |
+| Name                   | GitHub Username                                           | Role         | Responsibilities                    |
+| ---------------------- | --------------------------------------------------------- | ------------ | ----------------------------------- |
+| **Vitalii Melet**      | [vitalii-mieliet](https://github.com/vitalii-mieliet)     | Team Lead    | Common styles, animations, JS logic |
+| **Valeriia Dumikh**    | [RozLera](https://github.com/RozLera)                     | Scrum Master | Catalog section                     |
+| **Mykola Bubriak**     | [Nicolae24](https://github.com/Nicolae24)                 | Developer    | Advertisement section               |
+| **Dmytro Severyn**     | [dlmak1](https://github.com/dlmak1)                       | Developer    | Sale section                        |
+| **Andrii Lesnikov**    | [AndriiLesnicov](https://github.com/AndriiLesnicov)       | Developer    | About Us section                    |
+| **Oleksii Yakovlev**   | [Oleksii-fullstack](https://github.com/Oleksii-fullstack) | Developer    | Hero section, Footer                |
+| **Artem Absaliamov**   | [Artem-Absaliamov](https://github.com/Artem-Absaliamov)   | Developer    | Footer                              |
+| **Vladyslav Prokopii** | [prokopiy203](https://github.com/prokopiy203)             | Developer    | Header section                      |
