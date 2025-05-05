@@ -60,6 +60,6 @@ Watch our project presentation on YouTube:
 | **Mykola Bubriak**     | [Nicolae24](https://github.com/Nicolae24)                 | Developer    | Advertisement section               |
 | **Dmytro Severyn**     | [dlmak1](https://github.com/dlmak1)                       | Developer    | Sale section                        |
 | **Andrii Lesnikov**    | [AndriiLesnicov](https://github.com/AndriiLesnicov)       | Developer    | About Us section                    |
-| **Oleksii Yakovlev**   | [Oleksii-fullstack](https://github.com/Oleksii-fullstack) | Developer    | Hero section, Footer                |
+| **Oleksii Yakovliev**  | [Oleksii-fullstack](https://github.com/Oleksii-fullstack) | Developer    | Hero section, Footer                |
 | **Artem Absaliamov**   | [Artem-Absaliamov](https://github.com/Artem-Absaliamov)   | Developer    | Footer                              |
 | **Vladyslav Prokopii** | [prokopiy203](https://github.com/prokopiy203)             | Developer    | Header section, Footer              |
