@@ -1,11 +1,11 @@
 {
-  "name": "red-devils-project",
+  "name": "watchcharm",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/red-devils-project/",
+    "build": "vite build --base=/watchcharm/",
     "preview": "vite preview"
   },
   "devDependencies": {
