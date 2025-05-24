@@ -1,9 +1,6 @@
 # 🏆 Watchcharm
 
-**Watchcharm** is a collaborative web development project created as
-part of the GoIT Full Stack Bootcamp. It is a responsive one-page application
-built using **HTML**, **CSS**, and **JavaScript**, focused on clean layout,
-smooth animations, and modern development practices.
+**Watchcharm** is a collaborative web development project built as part of the GoIT Full Stack Bootcamp. It is a responsive one-page application developed using HTML, CSS, and JavaScript, showcasing teamwork, clean design, smooth animations, and modern web development practices.
 
 ## 🔗 Live Demo
 
