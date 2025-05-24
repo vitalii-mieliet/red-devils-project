@@ -1,6 +1,6 @@
-# 🏆 Red Devils Project
+# 🏆 Watchcharm
 
-**Red Devils Project** is a collaborative web development project created as
+**Watchcharm** is a collaborative web development project created as
 part of the GoIT Full Stack Bootcamp. It is a responsive one-page application
 built using **HTML**, **CSS**, and **JavaScript**, focused on clean layout,
 smooth animations, and modern development practices.
